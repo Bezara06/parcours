@@ -30,8 +30,13 @@ header .head {
     /* width: 100%; */
     padding: 12px;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     overflow-x: hidden;
+}
+
+.logo {
+    width: 100px;
+    height: 100px;
 }
 
 .head>.logo {

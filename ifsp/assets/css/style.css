@@ -37,7 +37,7 @@ main {
     /* border: 2px solid #263ed9; */
 }
 
-.p1>h1{
+.p1>h1 {
     text-align: center;
 }
 
@@ -49,6 +49,28 @@ main {
 .p6>h2 {
     color: #263ed9;
     margin-top: 14px;
+}
+
+li {
+    padding-left: 22px;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.p5 table {
+    width: 100%;
+}
+
+thead>tr>td {
+    font-weight: bold;
+}
+
+.p5 table,
+td {
+    border: 1px solid black;
+    border-collapse: collapse;
 }
 
 @media(max-width: 900px) {
