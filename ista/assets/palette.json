@@ -1,0 +1,38 @@
+{
+    "name": "Generated-Palette-2026-06-11",
+    "type": "analogous",
+    "baseColor": "#3B82F6",
+    "createdAt": "2026-06-11T11:19:24.359Z",
+    "colors": [
+        {
+            "hex": "#26c4d9",
+            "rgb": "rgb(38, 196, 217)",
+            "hsl": "hsl(187, 70%, 50%)",
+            "name": "Custom Color"
+        },
+        {
+            "hex": "#2697d9",
+            "rgb": "rgb(38, 151, 217)",
+            "hsl": "hsl(202, 70%, 50%)",
+            "name": "Custom Color"
+        },
+        {
+            "hex": "#266bd9",
+            "rgb": "rgb(38, 107, 217)",
+            "hsl": "hsl(217, 70%, 50%)",
+            "name": "Custom Color"
+        },
+        {
+            "hex": "#263ed9",
+            "rgb": "rgb(38, 62, 217)",
+            "hsl": "hsl(232, 70%, 50%)",
+            "name": "Custom Color"
+        },
+        {
+            "hex": "#3b26d9",
+            "rgb": "rgb(59, 38, 217)",
+            "hsl": "hsl(247, 70%, 50%)",
+            "name": "Custom Color"
+        }
+    ]
+}
