@@ -1,0 +1,22 @@
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.sec1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.p1 .bold {
+    font-weight: bold;
+    font-size: 2rem;
+}
