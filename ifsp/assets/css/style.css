@@ -54,6 +54,10 @@ main {
     text-transform: uppercase;
 }
 
+.p6>h3{
+    text-align: center;
+}
+
 li {
     padding-left: 22px;
 }

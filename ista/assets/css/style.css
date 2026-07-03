@@ -14,6 +14,12 @@
     --title-color: #3b26d9;
 }
 
+.ista {
+    text-transform: uppercase;
+    font-size: large;
+    color: var(--base-color);
+}
+
 body {
     position: relative;
     background: url(../../img/prm-universite-analanjirofo-10.png) top left / 600px auto no-repeat;
@@ -53,7 +59,7 @@ header .head {
 }
 
 .head>span>h3 {
-    text-transform: capitalize;
+    text-transform: uppercase;
 }
 
 main {

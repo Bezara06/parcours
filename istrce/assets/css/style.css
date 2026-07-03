@@ -4,9 +4,19 @@
 
 main {
     display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
+    flex-direction: column;
+    /* justify-content: center;
+    align-items: center; */
+    /* height: 100vh; */
+}
+
+main>h1 {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.istrce {
+    color: blue;
 }
 
 .sec1 {
@@ -16,7 +26,18 @@ main {
     flex-direction: column;
 }
 
-.p1 .bold {
+li>span.bold {
     font-weight: bold;
-    font-size: 2rem;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+}
+
+p>.bold {
+    font-weight: bold;
+}
+
+@media(max-width: 900px) {
+    main {
+        flex-direction: column;
+    }
 }
