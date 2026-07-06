@@ -45,6 +45,12 @@
       margin-left: 20px;
       font-weight: 600;
     }
+
+    .toggle-menu {
+      display: none;
+      cursor: pointer;
+    }
+
     nav a:hover {
       color: var(--secondaire);
     }
@@ -114,6 +120,34 @@
       font-weight: 700;
       margin-top: 15px;
     }
+
+    @media (max-width: 768px) {
+      .toggle-menu {
+        display: block;
+        z-index: 1000;
+      }
+      .toggle-menu svg {
+        width: 30px;
+        height: 30px;
+      }
+      nav{
+        display: none;
+      }
+      nav.show {
+        padding: 15px;
+        display: flex;
+        flex-direction: column;
+        background: var(--principal);
+        position: absolute;
+        top: 60px;
+        right: 15px;
+        width: 200px;
+        border-radius: 8px;
+      }
+      nav a {
+        margin: 10px 0;
+      }
+    }
   </style>
   </head>
   <body>
@@ -126,6 +160,13 @@
           <a href="istrce">ISTRCE</a>
           <a href="iudegds/">IUDEGDS</a>
         </nav>
+        <div class="toggle-menu">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+            <path
+              d="M2 5L2 7L22 7L22 5L2 5 z M 2 11L2 13L22 13L22 11L2 11 z M 2 17L2 19L22 19L22 17L2 17 z"
+              fill="##F4DF6D" />
+          </svg>
+        </div>
       </div>
     </header>
 
@@ -137,9 +178,7 @@
 
     <section id="ifsp">
       <h2>IFSP</h2>
-      <p>L'Institut de Formation en Sciences et Professionnalisation
-        (IFSP) propose des cursus axés sur l'innovation, la science et
-        le développement professionnel.</p>
+      <p>INSTITUT DE FORMATION SUPERIEUR DES PARAMÉDICAUX (IFSP).</p>
       <div class="cards">
         <div class="card">
           <h3>Programmes</h3>
@@ -161,9 +200,7 @@
 
     <section id="ista">
       <h2>ISTA</h2>
-      <p>L'Institut Supérieur des Technologies Avancées (ISTA) favorise
-        les compétences numériques, l'informatique et les technologies
-        de pointe.</p>
+      <p>Institut Superieur du Tourisme Analanjirofo.</p>
       <div class="cards">
         <div class="card">
           <h3>Technologie</h3>
@@ -185,9 +222,7 @@
 
     <section id="istrce">
       <h2>ISTRCE</h2>
-      <p>L'Institut Supérieur des Relations Culturelles et de
-        l'Entreprenariat (ISTRCE) accompagne les talents dans les
-        domaines culturels, artistiques et entrepreneuriaux.</p>
+      <p>Institu Supérieure de Technologie Régional de la Côte-Est.</p>
       <div class="cards">
         <div class="card">
           <h3>Culture</h3>
@@ -213,5 +248,7 @@
         commencez votre projet dès aujourd'hui.</p>
       <a href="#ifsp">Voir les formations</a>
     </section>
+
+    <script src="./script.js"></script>
   </body>
 </html>
