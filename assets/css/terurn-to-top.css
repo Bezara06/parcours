@@ -1,0 +1,27 @@
+.return-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 50px;
+    height: 50px;
+    background-color: var(--principal);
+    color: var(--blanc);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease-in-out;
+}
+
+.return-to-top:hover {
+    background-color: var(--secondaire);
+    transform: translateY(-5px);
+}
+
+.return-to-top svg {
+    width: 24px;
+    height: 24px;
+    fill: var(--blanc);
+}
