@@ -146,6 +146,13 @@ section p {
     border-radius: 50%;
 }
 
+footer {
+    background: var(--principal);
+    color: var(--blanc);
+    padding: 20px 15px;
+    text-align: center;
+}
+
 @media (max-width: 768px) {
     .toggle-menu {
         display: block;

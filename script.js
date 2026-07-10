@@ -8,3 +8,15 @@ toggleMenu.addEventListener('click', () => {
     nav.classList.add('show');
   }
 });
+
+document.addEventListener('click', (event) => {
+  if (!nav.contains(event.target) && !toggleMenu.contains(event.target)) {
+    nav.classList.remove('show');
+  }
+});
+
+document.addEventListener('scroll', () => {
+  if (nav.classList.contains('show')) {
+    nav.classList.remove('show');
+  }
+});
