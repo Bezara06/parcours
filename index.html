@@ -3,131 +3,88 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Parcours de formation</title>
-    <link rel="shortcut icon" href="./assets/icon/images.ico"
-      type="image/x-icon">
+    <title>Université d'Analanjirofo | Parcours</title>
+    <link rel="shortcut icon" href="./assets/icon/images.ico" type="image/x-icon">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="./assets/css/header.css">
     <link rel="stylesheet" href="./assets/css/terurn-to-top.css">
     <link rel="stylesheet" href="./assets/css/footer.css">
-    <link rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap">
   </head>
   <body>
     <header id="top">
       <div class="nav-container" id="home">
         <div class="logo">
           <a href="#home">
-            <img src="../ista/img/images.png" alt="logoUA">
+            <img src="./ista/img/images.png" alt="Logo de l'Université d'Analanjirofo">
           </a>
-          <span class="ua">Université d'Agñalanjiôfo</span>
+          <span class="ua">Université d'Analanjirofo</span>
         </div>
-        <nav>
+        <nav aria-label="Navigation principale">
           <a href="ifsp">IFSP</a>
           <a href="ista">ISTA</a>
           <a href="istrce">ISTRCE</a>
           <a href="iudegds/">IUDEGDS</a>
         </nav>
-        <div class="toggle-menu">
-          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
-            <path
-              d="M2 5L2 7L22 7L22 5L2 5 z M 2 11L2 13L22 13L22 11L2 11 z M 2 17L2 19L22 19L22 17L2 17 z"
-              fill="#FFFFFF" />
+        <div class="toggle-menu" aria-label="Ouvrir le menu" role="button" tabindex="0">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-hidden="true">
+            <path d="M2 5L2 7L22 7L22 5L2 5 z M 2 11L2 13L22 13L22 11L2 11 z M 2 17L2 19L22 19L22 17L2 17 z" fill="#FFFFFF" />
           </svg>
         </div>
       </div>
     </header>
 
-    <main class="hero">
-      <h1>Bienvenue sur le site des parcours IFSP, ISTA , ISTRCE et IUDEGDS</h1>
-      <p>Découvrez nos formations, nos spécialités et nos ressources pour
-        construire votre avenir professionnel avec confiance.</p>
+    <main>
+      <section class="hero" aria-labelledby="page-title">
+        <div class="hero-content">
+          <p class="eyebrow">Université d'Analanjirofo</p>
+          <h1 id="page-title">Choisissez votre institut</h1>
+          <p>Découvrez les parcours d'enseignement supérieur proposés à Fénérive-Est.</p>
+        </div>
+      </section>
+
+      <section class="institutes" aria-label="Nos instituts">
+        <a class="institute-card ifsp-card" href="ifsp">
+          <span class="card-code">IFSP</span>
+          <h2>Formation supérieure des paramédicaux</h2>
+          <p>Infirmier et sage-femme, de la licence au master.</p>
+          <span class="card-link">Découvrir <span aria-hidden="true">→</span></span>
+        </a>
+
+        <a class="institute-card ista-card" href="ista">
+          <span class="card-code">ISTA</span>
+          <h2>Tourisme Analanjirofo</h2>
+          <p>Formation aux métiers du tourisme et de l'hôtellerie.</p>
+          <span class="card-link">Découvrir <span aria-hidden="true">→</span></span>
+        </a>
+
+        <a class="institute-card istrce-card" href="istrce">
+          <span class="card-code">ISTRCE</span>
+          <h2>Technologie régionale de la Côte-Est</h2>
+          <p>Agronomie, production et agro-management.</p>
+          <span class="card-link">Découvrir <span aria-hidden="true">→</span></span>
+        </a>
+
+        <a class="institute-card iudegds-card" href="iudegds/">
+          <span class="card-code">IUDEGDS</span>
+          <h2>Droit, économie, gestion et développement social</h2>
+          <p>Des parcours adaptés aux enjeux professionnels et territoriaux.</p>
+          <span class="card-link">Découvrir <span aria-hidden="true">→</span></span>
+        </a>
+      </section>
     </main>
 
-    <section id="ifsp">
-      <h2>IFSP</h2>
-      <p>INSTITUT DE FORMATION SUPERIEUR DES PARAMÉDICAUX (IFSP).</p>
-      <div class="cards">
-        <div class="card">
-          <h3>Programmes</h3>
-          <p>Formations en sciences appliquées, développement durable
-            et ingénierie.</p>
-        </div>
-        <div class="card">
-          <h3>Accompagnement</h3>
-          <p>Mentorat, atelier carrière et soutien personnalisé pour
-            chaque étudiant.</p>
-        </div>
-        <div class="card">
-          <h3>Partenariats</h3>
-          <p>Collaboration avec des entreprises et des centres de
-            recherche nationaux.</p>
-        </div>
-      </div>
-    </section>
-
-    <section id="ista">
-      <h2>ISTA</h2>
-      <p>Institut Superieur du Tourisme Analanjirofo.</p>
-      <div class="cards">
-        <div class="card">
-          <h3>Technologie</h3>
-          <p>Formation en développement web, réseaux, cybersécurité et
-            infrastructures.</p>
-        </div>
-        <div class="card">
-          <h3>Innovation</h3>
-          <p>Projets pratiques, laboratoires connectés et défis
-            technologiques.</p>
-        </div>
-        <div class="card">
-          <h3>Insertion</h3>
-          <p>Stagiaires et apprentis intégrés à des équipes
-            professionnelles dès le début.</p>
-        </div>
-      </div>
-    </section>
-
-    <section id="istrce">
-      <h2>ISTRCE</h2>
-      <p>Institu Supérieure de Technologie Régional de la Côte-Est.</p>
-      <div class="cards">
-        <div class="card">
-          <h3>Culture</h3>
-          <p>Modules sur la communication, la gestion de projets
-            culturels et l'art contemporain.</p>
-        </div>
-        <div class="card">
-          <h3>Entrepreneuriat</h3>
-          <p>Accompagnement de projets, incubateur et formation au
-            management.</p>
-        </div>
-        <div class="card">
-          <h3>Réseau</h3>
-          <p>Échanges avec des professionnels du secteur culturel et
-            des institutions partenaires.</p>
-        </div>
-      </div>
-    </section>
-
-    <section class="cta">
-      <h2>Explorez votre parcours</h2>
-    </section>
     <footer>
       <div class="footer-content">
         <div class="footer-section">
           <h3>Contact</h3>
-          <p>Email: info@ista.mg</p>
-          <p>Téléphone: +261 34 12 345 67</p>
+          <p>Email : info@ista.mg</p>
+          <p>Téléphone : +261 34 12 345 67</p>
         </div>
       </div>
     </footer>
-    <div class="return-to-top"><a href="#home">
-        <svg
-          xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
-          <path
-            d="M12.005859 3.765625L3.0507812 12.535156L4.4492188 13.964844L11.994141 6.5761719L19.544922 14.083984L20.955078 12.666016L12.005859 3.765625 z M 11.998047 9.4023438L3.0351562 18.550781L4.4648438 19.949219L12.001953 12.255859L19.537109 19.904297L20.962891 18.501953L11.998047 9.4023438 z"
-            fill="#FFFFFF" />
+    <div class="return-to-top"><a href="#home" aria-label="Retour en haut">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-hidden="true">
+          <path d="M12.005859 3.765625L3.0507812 12.535156L4.4492188 13.964844L11.994141 6.5761719L19.544922 14.083984L20.955078 12.666016L12.005859 3.765625 z M 11.998047 9.4023438L3.0351562 18.550781L4.4648438 19.949219L12.001953 12.255859L19.537109 19.904297L20.962891 18.501953L11.998047 9.4023438 z" fill="#FFFFFF" />
         </svg></a>
     </div>
     <script src="./script.js"></script>
