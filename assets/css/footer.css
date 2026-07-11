@@ -1,0 +1,14 @@
+:root {
+    --principal: #1b3a6b;
+    --secondaire: #f39c12;
+    --fond: #f4f7fb;
+    --texte: #1f2d3d;
+    --blanc: #ffffff;
+}
+
+footer {
+    background: var(--principal);
+    color: var(--blanc);
+    padding: 20px 15px;
+    text-align: center;
+}

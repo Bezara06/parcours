@@ -54,7 +54,7 @@ main {
     text-transform: uppercase;
 }
 
-.p6>h3{
+.p6>h3 {
     text-align: center;
 }
 
@@ -116,28 +116,4 @@ img {
         border-bottom-right-radius: 24px;
         padding: 7px;
     }
-}
-
-.return-to-top::before {
-    position: fixed;
-    content: "";
-    width: 40px;
-    height: 40px;
-    color: #263ed9;
-    background-color: #263ed9;
-    right: 10px;
-    z-index: 3;
-    top: 100vw;
-}
-
-.return-to-top::after {
-    position: fixed;
-    content: "";
-    width: 40px;
-    height: 40px;
-    color: #263ed9;
-    background-color: #263ed9;
-    right: 10px;
-    z-index: 3;
-    top: 100vw;
 }
