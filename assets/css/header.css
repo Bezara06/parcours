@@ -11,9 +11,13 @@
 }
 
 header {
+    /* position: absolute; */
+    /* width: 100%; */
     background: var(--principal);
     color: var(--blanc);
     padding: 20px 15px;
+    /* margin-bottom: 100px; */
+    /* z-index: 10; */
 }
 
 .nav-container {
@@ -30,6 +34,7 @@ header {
 }
 
 nav {
+    transition: all 400ms ease-in;
     display: flex;
     gap: 7px;
 }
@@ -98,11 +103,8 @@ nav a:hover {
     }
 
     nav {
-        display: none;
-    }
-
-    nav.show {
         transition: all 400ms ease-in;
+        opacity: 0;
         padding: 15px;
         display: flex;
         flex-direction: column;
@@ -113,6 +115,10 @@ nav a:hover {
         width: 200px;
         border-radius: 8px;
         z-index: 999;
+    }
+
+    nav.show {
+        opacity: 1;
     }
 
     nav a {

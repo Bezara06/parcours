@@ -69,6 +69,14 @@ main {
     font-size: clamp(1rem, 1.6vw, 1.18rem);
 }
 
+#typedText {
+    /* display: block; */
+    margin-top: 1rem;
+    color: rgba(255, 255, 255, 0.9);
+    font-weight: 700;
+    font-size: clamp(1.2rem, 1.8vw, 1.20rem);
+}
+
 .institutes {
     display: grid;
     grid-template-columns: repeat(4, minmax(0, 1fr));
@@ -112,10 +120,21 @@ main {
     outline: none;
 }
 
-.ifsp-card { --card-color: #087f83; }
-.ista-card { --card-color: #08739e; }
-.istrce-card { --card-color: #287850; }
-.iudegds-card { --card-color: #415b99; }
+.ifsp-card {
+    --card-color: #087f83;
+}
+
+.ista-card {
+    --card-color: #08739e;
+}
+
+.istrce-card {
+    --card-color: #287850;
+}
+
+.iudegds-card {
+    --card-color: #415b99;
+}
 
 .card-code {
     color: var(--card-color);
