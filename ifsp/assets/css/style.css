@@ -107,6 +107,7 @@ main h1 {
     letter-spacing: 0;
     line-height: 1.22;
     text-align: center;
+    text-transform: uppercase;
 }
 
 main h2 {

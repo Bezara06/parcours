@@ -35,7 +35,7 @@ main {
     overflow: hidden;
     padding: clamp(2rem, 6vw, 5rem) clamp(1rem, 7vw, 7rem);
     color: #fff;
-    background-image: linear-gradient(90deg, rgba(9, 37, 67, 0.89), rgba(9, 37, 67, 0.54) 56%, rgba(9, 37, 67, 0.18)), url("ista/img/un-devant.jpg");
+    background-image: linear-gradient(90deg, rgba(9, 37, 67, 0.89), rgba(9, 37, 67, 0.54) 56%, rgba(9, 37, 67, 0.18)), url("ista/img/devant-1.jpeg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -186,7 +186,7 @@ main {
     .hero {
         min-height: 22rem;
         align-items: end;
-        background-image: linear-gradient(90deg, rgba(9, 37, 67, 0.9), rgba(9, 37, 67, 0.45)), url("ista/img/un-devant.jpg");
+        background-image: linear-gradient(90deg, rgba(9, 37, 67, 0.9), rgba(9, 37, 67, 0.45)), url("ista/img/devant-1.jpeg");
     }
 
     .institutes {

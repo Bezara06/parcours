@@ -60,7 +60,7 @@ body {
 }
 
 .logoISTA>img {
-     /* width: clamp(4.7rem, 9vw, 6.6rem); */
+    /* width: clamp(4.7rem, 9vw, 6.6rem); */
     /* height: clamp(4.7rem, 9vw, 6.6rem); */
     width: 150px;
     height: auto;
@@ -274,13 +274,14 @@ main li::marker {
 
 .p3>img {
     display: block;
-    width: clamp(7rem, 13vw, 10.5rem);
+    /* width: clamp(7rem, 13vw, 10.5rem); */
+    width: 100%;
     height: auto;
     margin: 0 auto 1.4rem;
     border: 7px solid #eef7f7;
-    border-radius: 50%;
+    /* border-radius: 50%; */
     box-shadow: 0 12px 26px rgba(14, 55, 75, 0.15);
-}
+    }
 
 footer {
     display: flex;
